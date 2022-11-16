@@ -11287,6 +11287,7 @@ textarea.form-control-lg {
   grid-template-columns: 6rem 6rem 6rem;
   grid-template-rows: 2rem 1rem;
   gap: 0px;
+  margin: 0 0 1rem 0;
 }
 
 .link-item{
@@ -11343,6 +11344,17 @@ textarea.form-control-lg {
 }
 
 .attribution-link:hover{
+  text-decoration: underline;
+}
+
+#see-portfolio-code{
+  height: 4rem;
+  padding: 2rem 0 0 0;
+  color: blue;
+}
+
+#portfolio-code-link:hover{
+  color: #EB2C5D;
   text-decoration: underline;
 }
 
