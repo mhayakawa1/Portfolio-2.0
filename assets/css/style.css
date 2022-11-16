@@ -10895,7 +10895,7 @@ textarea.form-control-lg {
 
 .intro-section {
   background: linear-gradient(290deg, #EB2C5D, #FC6840, #F8C93C);
-  padding: 10rem 0 0 0;
+  padding: 6rem 0 0 0;
   width: 100%;
   height: 100%;
 }
@@ -11238,7 +11238,7 @@ textarea.form-control-lg {
   filter: invert(100%);
   width: 20rem;
   height: auto;
-  margin: 4rem 50% 0 50%;
+  margin: 2rem 50% 0 50%;
   justify-self: right;
 }
 
@@ -11264,6 +11264,12 @@ textarea.form-control-lg {
 }
 }*/
 
+#sm-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .footer-sm a {
   color: #fff;
 }
@@ -11280,25 +11286,49 @@ textarea.form-control-lg {
   color: #EB2C5D;
 }
 
+#sm-text{
+  align-self: center;
+}
+/*
 .sm-links{
+  background-color: grey;
+  justify-self: center;
   display: grid;
   width: 18rem;
   height: 3rem;
-  grid-template-columns: 6rem 6rem 6rem;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 2rem 1rem;
   gap: 0px;
   margin: 0 0 1rem 0;
 }
 
-.link-item{
-  width: 6rem;
-  justify-self: center;
-  align-self: center;
-  /*border: 1px solid white;*/
+@media(max-width: 1000px){
+  .sm-links{
+    justify-self: center;
+    align-self: center;
+    margin: 0 20% 0 20%;
+  }
 }
 
-.grid-logo{
-  margin: 0 0 0 2rem;
+.link-item{
+  justify-self: center;
+  align-self: center;
+}*/
+.sm-links{
+  justify-self: center;
+  display: grid;
+  width: 18rem;
+  height: 4rem;
+  grid-template-columns: 6rem 6rem 6rem;
+  grid-template-rows: 2rem 1rem;
+  gap: 0px;
+  padding: 0;
+}
+
+.link-item{
+  justify-self: center;
+  width: 6rem;
+  margin: 0 !important;
 }
 
 .campany-list {
