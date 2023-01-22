@@ -10998,14 +10998,13 @@ textarea.form-control-lg {
 }
 .skills__card {
   background-color: rgba(255, 255, 255, 0.8);
-  padding: 2rem 1.25rem;
+  padding: 2rem 2.5rem 2rem 2.5rem;
   border-radius: 0.625rem;
   height: auto;
   text-align: center;
-  display: grid;
-  justify-content: center;
-  grid-template-columns: 10vw 10vw 10vw 10vw;
-  column-gap: 10vw;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
   margin: 2rem auto 0 auto;
   
 }
@@ -11041,10 +11040,16 @@ textarea.form-control-lg {
   text-transform: capitalize;
 }
 
+.skills-item{
+  min-width: 8rem;
+}
+
 .lang-thumbnail{
-  width: 5rem;
-  filter: invert(26%) sepia(91%) saturate(2965%) hue-rotate(329deg) brightness(95%) contrast(93%);
-  justify-self: center;
+  font-size: 8rem !important;
+  margin: 1rem 0 .5rem 0;
+  color: #EB2C5D !important;
+  /*filter: invert(26%) sepia(91%) saturate(2965%) hue-rotate(329deg) brightness(95%) contrast(93%);
+  */justify-self: center;
 }
 
 .lang-name{
